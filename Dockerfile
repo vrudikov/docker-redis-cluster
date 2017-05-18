@@ -19,5 +19,6 @@ COPY redis-start.sh  /bin/redis-start.sh
 
 RUN chmod +x /bin/redis-start.sh
 
+EXPOSE 6379 6380 6381 6382 6383 6384
+
 CMD . /bin/redis-start.sh
-     
