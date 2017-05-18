@@ -1,6 +1,6 @@
-From alpine:edge
+FROM alpine:edge
 
-MAINTAINER Vishnu Nair <me@vishnudxb.me>
+MAINTAINER Val Rudi <mail.valik@gmail.com>
 
 RUN mkdir /src
 WORKDIR /src

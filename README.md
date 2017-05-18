@@ -25,3 +25,15 @@ redis-cli -h 127.0.0.1 -p 5000 cluster nodes
 
 ```
 
+## Development
+```
+docker login --username=vrudikov
+```
+
+```
+docker build . -t vrudikov/docker-redis-cluster
+```
+
+```
+docker push vrudikov/docker-redis-cluster
+```
